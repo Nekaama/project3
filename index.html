@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body class="body">
+    <header class="header">
+        <h1 class="header__title">Ремонт техники различных брендов</h1>
+    </header>
+    <main class="content">
+        <div class="swiper">
+            <div class="swiper-wrapper hidden">
+                
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <a class="content__button content__button--reveal" href="#">Показать все</a>
+    </main>
+
+    <template id="brand-box">
+        <div class="swiper-slide">
+            <div class="content__brands-element">
+                <img class="content__brand-imag">
+                <a class="content__brand-button" href="#"><img class="content__brand-button-imag" src="./img/go.svg"></a>
+            </div>
+        </div>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
