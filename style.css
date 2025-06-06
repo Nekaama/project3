@@ -120,9 +120,12 @@ html{
         display: none;
     }
 
+    .swiper .hidden {
+        overflow: visible;
+    }
+    
     .swiper {
         height: 100px;
-        overflow: visible;
     }
 
     .swiper .swiper-slide {
