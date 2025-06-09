@@ -133,12 +133,6 @@ html{
     }
 }
 
-@media (min-width: 1568px) {
-    .content__button {
-        display: none;
-    }
-}
-
 @media (max-width: 391px) {
     .header {
         height: 80px;
